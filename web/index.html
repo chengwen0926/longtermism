@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'"
+    />
+    <meta name="theme-color" content="#1a1a1e" />
+    <link rel="icon" type="image/svg+xml" href="rocket.svg" />
+    <title>longtermism · 行动矩阵与考察期</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="storage-banner" class="storage-banner" role="alert" hidden></div>
+    <div id="app"><p class="boot">正在打开你的生活空间……</p></div>
+    <dialog id="modal" aria-labelledby="modal-title"></dialog>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="model.js"></script>
+    <script src="storage.js"></script>
+    <script src="canvas.js"></script>
+    <script src="calendar.js"></script>
+    <script src="app.js"></script>
+    <script src="dev.js"></script>
+  </body>
+</html>
